@@ -23,5 +23,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          cat /etc/os-release
-          ip addr sh ens3
+        sudo cp -rvf /opt/actions-runner/_work/cicd_11-30_batch/cicd_11-30_batch/html/* /var/www/html/
+          
